@@ -3,13 +3,14 @@ name: Build RM2100 R2100
 on: 
   release:
     types: [published]
+  workflow_dispatch:
 #  push:
 #    tags:
 #    - 'v*'
   #  branches: 
   #    - master
-  schedule:
-    - cron: 0 17 * * 4
+#   schedule:
+#     - cron: 0 17 * * 4
 #  watch:
 #    types: [started]
 
